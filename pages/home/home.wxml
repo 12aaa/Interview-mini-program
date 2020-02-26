@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<view class="section tc">
+  <video id="myVideo" src="https://vdept.bdstatic.com/4c5133715168476e44576b337478756c/5243317473636952/776f0ac089b689411018303ab2c587d2efb357bc1c9e84aceb83df33e1d8bd8e2368de926ba42213d00c0e5d5651407d.mp4?auth_key=1582699970-0-0-f31856254239d68cfa5f22e505191c68" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <view class="btn-area">
+    <button bindtap="bindButtonTap">获取视频</button>
+    <input bindblur="bindInputBlur"/>
+    <button bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+</view>

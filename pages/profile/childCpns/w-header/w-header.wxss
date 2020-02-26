@@ -1,0 +1,31 @@
+/* pages/profile/childCpns/w-header/w-header.wxss */
+.header {
+  position: relative;
+  
+}
+.background{
+  background: url(http://img2.imgtn.bdimg.com/it/u=178623746,1267464372&fm=26&gp=0.jpg);
+  height: 400rpx;
+  color: #fff;
+  background-position: center center;
+  background-size:100% 100%;
+  filter: blur(10rpx);
+}
+.avatar{
+  width: 140rpx;
+  height: 140rpx;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9
+  
+}
+.avatar image {
+  width: 100%;
+  height: 100%;
+  border-radius: 70rpx;
+  background: #f2f2f2;
+  vertical-align: middle;
+  filter:none;
+}

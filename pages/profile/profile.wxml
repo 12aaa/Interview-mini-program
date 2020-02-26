@@ -1,0 +1,7 @@
+<!--pages/profile/profile.wxml-->
+<view class='profile'>
+  <w-header/>
+  <w-list-view infos="{{payList}}"/>
+  <w-list-view infos="{{infoList}}"/>
+  <w-list-view infos="{{setList}}"/>
+</view>

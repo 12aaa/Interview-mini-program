@@ -1,0 +1,8 @@
+<!--pages/profile/childCpns/w-header/w-header.wxml-->
+<view class='header'>
+  <view class="background"></view>
+  <view class='avatar'>
+    <image src="http://img2.imgtn.bdimg.com/it/u=178623746,1267464372&fm=26&gp=0.jpg"/>
+  </view>
+  <view class=""></view>
+</view>
